@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm config get:*)",
+      "Bash(npm install:*)",
+      "Bash(npm config set:*)",
+      "Bash(timeout 60 npm install)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
